@@ -15,16 +15,16 @@
 <script>
     let Granim = require('granim');
     let textArr = [
-        'Hi, here lies a partial record of some of the projects I have worked on.', 
         'I graduated with a Bachelor in Software Engineering from ÉTS in 2015.', 
         'I like to travel and take <a href="http://www.instagram.com/zielinskip">pictures</a>.', 
+        'Check out my medium stories <a href="https://medium.com/@patrick.se">@patrick.se</a>.', 
     ];
 
     export default {
 
         data () {
             return {
-                text: textArr[0],
+                text: 'Hi, here lies a partial record of some of the projects I have worked on.', 
             };
         },
 
@@ -50,6 +50,7 @@
 
 .fixed {
     position: fixed;
+    z-index: 2;
 }
 
 .is-circular {
