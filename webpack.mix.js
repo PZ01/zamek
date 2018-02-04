@@ -1,6 +1,7 @@
 let mix = require('laravel-mix');
 mix.js('src/app.js', 'dist')
    .sass('src/app.scss', 'dist')
+   .copy('node_modules/aos/dist/aos.css', 'dist')
    .setPublicPath('dist');
 
 // Full API
