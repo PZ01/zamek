@@ -1,5 +1,5 @@
 <template>
-    <div class="item center" :style="styles" :data-aos="animation">
+    <div class="item" :data-aos="animation">
         <div class="card">
             <div class="card-image">
                 <figure class="image is-4by3">
@@ -33,16 +33,7 @@
 
     export default {
 
-        props: ['animation', 'width', 'showcase', 'showcase_alt', 'company', 'position', 'duration', 'tags'],
-
-        computed: {
-            styles() {
-                if(! this.width) {
-                    return '';
-                }
-                return 'width: ' + this.width + 'px;'; 
-            },
-        },
+        props: ['animation', 'showcase', 'showcase_alt', 'company', 'position', 'duration', 'tags'],
 
         data() {
             return {}  
@@ -55,10 +46,6 @@
     margin-top: 20px;
     background: white;
     z-index: 1;
-}
-
-.center {
-    margin: 50px auto;
 }
 
 .tag {

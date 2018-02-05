@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed">
+    <div class="fixed is-hidden-mobile">
         <figure class="image is-128x128">
             <img class="figure is-circular" src="resources/assets/img/figure.jpg">
         </figure>
@@ -59,6 +59,6 @@
 
 .figure {
     border: 3px solid white;
-    margin: 9px;
+    margin: 25px;
 }
 </style>

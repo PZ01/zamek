@@ -14,53 +14,61 @@
 
             <figure-view></figure-view>
 
-            <tile-view :width="400" 
-                       animation="fade-up"
-                       showcase="resources/assets/img/flightsim.jpg" 
-                       showcase_alt="Presagis FlightSim Software" 
-                       company="Presagis"
-                       position="Programmer - Internship"
-                       duration="September 2012, 8 months."
-                       :tags="['Perl', 'C++', 'Qt']">
+            <div class="columns">
+                <div class="column is-4 is-offset-4">
+                    <tile-view  
+                     animation="fade-up"
+                     showcase="resources/assets/img/flightsim.jpg" 
+                     showcase_alt="Presagis FlightSim Software" 
+                     company="Presagis"
+                     position="Programmer - Internship"
+                     duration="2011 - 2012"
+                     :tags="['Perl', 'C++', 'Qt']">
 
-                    I helped the quality insurance team improve their pipeline by
-                    writing <strong>perl scripts</strong> that automated tasks. They later extended my internship and asked me to assist another
-                    deparment within the company. I worked with the Flight Simulator team, I helped them by writing a 
-                    <strong>cross-platform driver in C++</strong> for controlling
-                    the simulation with a joystick. During the feature freeze, I was tasked with fixing bugs in the GUI
-                    which was written in <strong>C++ and Qt</strong>. My work helped improve customer satisfaction by fixing most known issues.
+                        I helped the quality insurance team improve their pipeline by
+                        writing <strong>perl scripts</strong> that automated tasks. They later extended my internship and asked me to assist another
+                        deparment within the company. I worked with the Flight Simulator team, I helped them by writing a 
+                        <strong>cross-platform driver in C++</strong> for controlling
+                        the simulation with a joystick. During the feature freeze, I was tasked with fixing bugs in the GUI
+                        which was written in <strong>C++ and Qt</strong>. My work helped improve customer satisfaction by fixing most known issues.
 
-            </tile-view>
+                    </tile-view>
+                </div> 
+            </div>
 
-            <tile-view :width="400" 
-                       animation="fade-up"
-                       showcase="resources/assets/img/mirametrix.jpg" 
-                       showcase_alt="Mirametrix Eye-Tracking Device" 
-                       company="Tandem Launch Technologies"
-                       position="Software Engineer - Internship"
-                       duration="September 2014, 4 months."
-                       :tags="['C', 'FFMpeg', 'C#', 'Kinect API', 'Visual Studio']">
+            <div class="columns">
+                <div class="column is-4 is-offset-4">
+                    <tile-view  
+                     animation="fade-up"
+                     showcase="resources/assets/img/mirametrix.jpg" 
+                     showcase_alt="Mirametrix Eye-Tracking Device" 
+                     company="Tandem Launch Technologies"
+                     position="Software Engineer - Internship"
+                     duration="January 2014 to May 2014"
+                     :tags="['C', 'FFMpeg', 'C#', 'Kinect API', 'Visual Studio']">
 
-                    I had an R&D position at TLT. I was tasked with various work. Most notably, I integrated an H.264 decoder
-                    inside of a multimedia framework in <strong>C with ffmpeg</strong>. This allowed us to use high quality streams for product demonstrations.
-                    I think it made our product more impressive to clients. 
-                    <br>
-                    <br>
-                    Afterwards, I was tasked with adding voice control to our
-                    eye-tracking device(see picture). It used the <strong>C# Kinect library</strong>. The product allowed us to register common words,
-                    such as <em>off, on, red, stop</em> and trigger functions in our codebase. It was a great way to add another way of
-                    interacting with the device; which initially did eye-tracking.
-            </tile-view>
+                        I had an R&D position at TLT. I was tasked with various work. Most notably, I integrated an H.264 decoder
+                        inside of a multimedia framework in <strong>C with ffmpeg</strong>. This allowed us to use high quality streams for product demonstrations.
+                        I think it made our product more impressive to clients. 
+                        <br>
+                        <br>
+                        Afterwards, I was tasked with adding voice control to our
+                        eye-tracking device(see picture). It used the <strong>C# Kinect library</strong>. The product allowed us to register common words,
+                        such as <em>off, on, red, stop</em> and trigger functions in our codebase. It was a great way to add another way of
+                        interacting with the device; which initially did eye-tracking.
+                    </tile-view>
+                </div> 
+            </div>
 
             <div class="columns">
               <div class="column is-offset-2 is-4">
-                  <tile-view :width="400" 
+                  <tile-view  
                    animation="fade-right"
                    showcase="resources/assets/img/yogify.jpg" 
                    showcase_alt="Yogify" 
                    company="Electronic Arts"
                    position="Software Engineer - Internship"
-                   duration="September 2014, 4 months."
+                   duration="May 2013 to November 2013"
                    :tags="['Objective-C', 'C#', 'Apple Pay API', 'XCode']">
                       When I joined EA I was initially set to work on UFC F2P, but I ended up working on <a href="https://www.ea.com/news/yogify-faq">Yogify</a>.                       I built the in-game purchase store in <strong>Objective-C</strong> that allows a user to unlock additional features within the app. I was responsible 
                       for communication between my manager and an
@@ -68,13 +76,13 @@
                   </tile-view>
               </div>
               <div class="column is-4">
-                  <tile-view :width="400" 
+                  <tile-view  
                    animation="fade-left"
                    showcase="resources/assets/img/eatech.jpg" 
                    showcase_alt="Audacity Audio Editing" 
                    company="Electronic Arts"
                    position="Software Engineer - Internship"
-                   duration="September 2014, 6 months."
+                   duration="May 2014 to December 2014"
                    :tags="['C++', 'Unit Testing', 'Visual Studio']">
 
                     I came back to Electronic Arts and worked with the central technologies team. I was tasked with improving the audio engine that was used
@@ -84,18 +92,23 @@
               </div>
             </div>
 
-            <tile-view :width="600" 
-                   animation="fade-up"
-                   showcase="resources/assets/img/slingbee.jpg" 
-                   showcase_alt="Slingbee Mobile Application Prototype" 
-                   company="Slingbee"
-                   position="Software Engineer"
-                   duration="September 2014, 1 year"
-                   :tags="['Node.JS', 'AWS Cognito', 'DynamoDB', 'AWS Lambda', 'AWS S3', 'Laravel 5.2']">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <tile-view 
+                     animation="fade-up"
+                     showcase="resources/assets/img/slingbee.jpg" 
+                     showcase_alt="Slingbee Mobile Application Prototype" 
+                     company="Slingbee"
+                     position="Software Engineer"
+                     duration="May 2015 to January 2016"
+                     :tags="['Node.JS', 'AWS Cognito', 'DynamoDB', 'AWS Lambda', 'AWS S3', 'Laravel 5.2']">
 
-                    Slingbee was a small start up that wanted to redefine the way the workers from the restaurant industry communicated together.
-                    I worked on the backend which used Amazon Lambda's, DynamoDB and EC2 services. I also worked on the Android version and on the website. 
-            </tile-view>
+                        Slingbee was a small start up that wanted to redefine the way the workers from the restaurant industry communicated together.
+                        I worked on the backend which used Amazon Lambda's, DynamoDB and EC2 services. I also worked on the Android version and on the website. 
+                    </tile-view>
+                </div> 
+            </div>
+
             <div class="columns">
                 <div class="column is-4">
                     <tile-view 
@@ -104,7 +117,7 @@
                      showcase_alt="Landing page of Moroccan Oil Loyalty Page" 
                      company="Moroccan Oil"
                      position="Software Engineer"
-                     duration="September 2014, 8 months"
+                     duration="January 2016 to May 2017"
                      :tags="['Amazon EC2', 'Laravel 5.2', 'PHP', 'JQuery', 'MySQL']">
                         Moroccan Oil hired me to rebuild most of their internal <a href="http://us.partners.moroccanoil.com/">customer loyalty website</a>. The wor involved database migrations and complete
                         re-writes of many components. The original code had a monolitic design that was difficult to maintain. We moved it from PHP 5 to PHP 7
@@ -120,7 +133,7 @@
                      showcase_alt="Kaplica Builder Page" 
                      company="Self-Employed"
                      position="Full Stack Developer"
-                     duration="September 2014, 8 months"
+                     duration="2018 to now"
                      :tags="['VueJS', 'Laravel 5.5', 'PHP 7', 'MySQL', 'NPM', 'Webpack']">
                         Kaplica is a website generator that gives small businesses the opportunity to get online visibility in a couple of minutes.
                         With live feedback, optional components, editable fields, a map and social network integration, Kaplica makes life easy. I
@@ -135,7 +148,7 @@
                      showcase_alt="Perles & Paddock Landing Page" 
                      company="Self-Employed"
                      position="Full Stack Developer"
-                     duration="September 2014"
+                     duration="2018 to now"
                      :tags="['Grav CMS', 'JQuery', 'PHP', 'Markdown']">
                         I built the website for a restaurant called <a href="http://159.203.5.223/en">Perles & Paddock</a>. It is built on top of Grav CMS which gave my client complete
                         freedom over the content of his website. The website supports multiple languages, includes a full administrator panel, supports
